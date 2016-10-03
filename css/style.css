@@ -25,10 +25,25 @@ margin: 0 auto;
 
 /*margin: .25em 0 .4em;*/
 margin: 0 auto;
-    width: 225px;
+    width: 200px;
     height: 200px;
 
-    border-radius: 60%;
+    border-radius: 100%;
+    display: block;
+    font-family: "Circular", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 3.8em;
+}
+
+#title-icon{
+margin: 0 auto;
+
+/*margin: .25em 0 .4em;*/
+/*margin: 0 auto;*/
+    width: 200px;
+    height: 200px;
+
+    /*border-radius: 100%;*/
     display: block;
     font-family: "Circular", Helvetica, sans-serif;
     font-weight: bold;
@@ -50,12 +65,11 @@ margin: 0 auto;
 
 
 
-
 #weather{
   color :#1B998B;
   text-align: center;
   margin: 0 auto;
-    
+
 }
 
 p1{
