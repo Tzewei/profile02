@@ -1,0 +1,90 @@
+/*For fixed navibar
+body {
+  min-height: 2000px;
+  padding-top: 70px;
+}*/
+
+/*For Static*/
+body {
+  min-height: 2000px;
+}
+
+.navbar-static-top {
+  margin-bottom: 19px;
+}
+
+
+#front *{
+  text-align: center;
+
+}
+
+
+#profile-icon{
+margin: 0 auto;
+
+/*margin: .25em 0 .4em;*/
+margin: 0 auto;
+    width: 225px;
+    height: 200px;
+
+    border-radius: 60%;
+    display: block;
+    font-family: "Circular", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 3.8em;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#weather{
+  color :#1B998B;
+  text-align: center;
+  margin: 0 auto;
+    
+}
+
+p1{
+  color:#1B998B;
+  font-size: 40px;
+  text-align: center;
+}
+p2{
+  color:black;
+  font-family: 'Asap';
+  font-style: sans-serif;
+  font-size: 20px;
+
+}
+p3{
+  color:#FC1D42;
+  font-family: 'Asap';
+  font-style: sans-serif;
+  font-size: 50px;
+}
+p4{
+  color: black;
+  font-family: 'Asap';
+  font-style: sans-serif;
+  font-size: 20px;
+}
+p5{
+  color: #FF9B71;
+  font-family: 'Asap';
+  font-style: sans-serif;
+  font-size: 20px;
+}
