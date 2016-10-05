@@ -16,9 +16,17 @@ body {
 
 #front *{
   text-align: center;
-  background: red;
+
 }
 
+
+.jumbotron{
+  /*background: red;*/
+}
+
+#profile-pic{
+    border-radius: 100%;
+}
 
 #profile-icon{
 margin: 0 auto;
@@ -35,23 +43,42 @@ margin: 0 auto;
     font-size: 3.8em;
 }
 
+#title{
+  margin: 0 auto;
+  text-align: center;
+  background-color: red;
+  max-height: 200px;
+}
+
 #title-icon{
 margin: 0 auto;
 
 /*margin: .25em 0 .4em;*/
-/*margin: 0 auto;*/
+margin: 5px auto;
     width: 150px;
     height: 150px;
 
-    /*border-radius: 100%;*/
-    /*display: block;
+    border-radius: 10%;
+    border: solid 2px white;
+    display: block;
     font-family: "Circular", Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 3.8em;*/
+    font-size: 3.8em;
 
 }
 
-#title{
+.contact li a{
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+.contact li a:hover{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.work-item{
   margin: 0 auto;
 }
 
@@ -99,7 +126,11 @@ margin: 0 auto;
   position: relative;
   font-size: 17px;
   padding: 10px;
+  width: 180px;
+  margin: 0 auto;
   background: rgba(0, 0, 0, 0.6);
+  border-radius: 3%;
+
 }
 
 .hovereffect a.info {
@@ -109,10 +140,12 @@ margin: 0 auto;
   border: 1px solid #fff;
   margin: 50px 0 0 0;
   background-color: transparent;
+
 }
 
 .hovereffect a.info:hover {
   box-shadow: 0 0 5px #fff;
+
 }
 
 .hovereffect a.info, .hovereffect h2 {
@@ -123,7 +156,6 @@ margin: 0 auto;
   transition: all 0.4s ease-in;
   opacity: 0;
   filter: alpha(opacity=0);
-  /*color: #fff;*/
   color: #fff;
 
   text-transform: uppercase;
@@ -137,45 +169,10 @@ margin: 0 auto;
   transform: scale(1);
 }
 
+.contact li{
+  list-style-type:none;
 
-/*test***********************************************************************/
-header {
-    text-align: center;
-    background: #18BC9C
 }
-header .container {
-    padding-top: 100px;
-    padding-bottom: 50px
-}
-header img {
-    display: block;
-    margin: 0 auto 20px
-}
-header .intro-text .name {
-    display: block;
-    font-weight: 700;
-    font-size: 2em
-}
-header .intro-text .skills {
-    font-size: 1.25em;
-    font-weight: 300
-}
-@media (min-width:768px) {
-    header .container {
-        padding-top: 200px;
-        padding-bottom: 100px
-    }
-    header .intro-text .name {
-        font-size: 4.75em
-    }
-    header .intro-text .skills {
-        font-size: 1.75em
-    }
-}
-
-
-
-
 
 
 
