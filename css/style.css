@@ -78,10 +78,25 @@ margin: 5px auto;
   font-size: 20px;
 }
 
+
 .work-item{
   margin: 0 auto;
+  text-align: justify;
 }
 
+.work-container{
+  margin: 20px 0 20px 0;
+  border-bottom:5px solid #18BC9C;
+  border-radius: 1%;
+}
+
+
+.work-title{
+  margin: 10px 0 10px 0;
+  text-align: center;
+
+
+}
 
 /*hover css*/
 
